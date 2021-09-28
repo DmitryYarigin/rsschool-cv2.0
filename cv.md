@@ -1,13 +1,13 @@
-##Dmitry Yarigin
+## Dmitry Yarigin
 
-##Constacts
+## Constacts
 
 - location: Russia, Pyatigorsk
 - e-mail: yarich1@yandex.ru
 - phone: +79620221020
 - github: [dmitry-yarigin](https://gist.github.com/DmitryYarigin/ "git")
 
-##About me
+## About me
 I am a novice front-end programmer, trying to master a new profession. I think if you pay enough time and attention, everything will work out. The main thing is not to be lazy and overcome difficulties.
 ##Skills
 
@@ -18,7 +18,7 @@ I am a novice front-end programmer, trying to master a new profession. I think i
 
 ---
 
-##Code example
+## Code example
 function squareSum(numbers){
 var sum = 0;
 for (var i = 0; i < numbers.length; i++) {
@@ -30,13 +30,13 @@ for (var i = 0; i < numbers.length; i++) {
 
     alert(squareSum([3,3]));
 
-##Experience
+## Experience
 
 game snake(html,js,canvas),calculator(html,css,js)
 
 ---
 
-##Education
+## Education
 
 - FreeCodeCamp
 - CodeCademy
@@ -44,5 +44,5 @@ game snake(html,js,canvas),calculator(html,css,js)
 
 ---
 
-#English
+# English
 _A2_(Duolingo,youtube videos)
