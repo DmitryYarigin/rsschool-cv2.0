@@ -29,3 +29,35 @@ body {
 .footer {
   border: 1px red solid;
 }
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+}
+
+header img{
+  border: 10px solid green;
+  border-radius: 50%;
+
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+main ul {
+  list-style: none;
+}
+
+main :not(.contacts) ul{
+  list-style-type: disc;
+  margin-left: 50px;
+}
+
+.contacts li p{
+  display: inline;
+  vertical-align: middle;
+}
+
