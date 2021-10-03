@@ -1,12 +1,31 @@
 body {
-  background-color: darkgray;
+  background-color: rgb(228, 127, 127);
 }
 
-.myDiv {
-  border: 2px green solid;
-  color: red;
-  text-align: center;
-  margin: 0 auto;
+.wrapper {
+  border: 2px #ecf1f5 solid;
+  font-family: Arial, Verdana, sans-serif;
+  line-height: 1.5;
+  margin: 20px auto;
   width: 80%;
   height: 700px;
+  box-shadow: 10px 10px 20px 20px rgb(0 0 0 / 0.23);
+}
+
+.twoColumns {
+  display: flex;
+}
+.leftColumn {
+  border: 1px green solid;
+  width: 30%;
+}
+
+.rightColumn {
+  border: 1px yellow solid;
+  width: 70%;
+  height: 600px;
+}
+
+.footer {
+  border: 1px red solid;
 }
