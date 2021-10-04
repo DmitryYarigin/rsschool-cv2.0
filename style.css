@@ -61,3 +61,8 @@ main :not(.contacts) ul{
   vertical-align: middle;
 }
 
+.languageName {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
