@@ -58,8 +58,46 @@
            
             </div>
             <aside class="rightColumn">
-
+                <section class="aboutMyself">
+                    <div class="subHeader">
+                        <img src="./icons/man.png" alt="about me">
+                        <h3>About me</h3>
+                    </div>
+                    <p>I am started frontend developer. I've made several websites, I'm studying js. sociable, I work well in a team,
+                        I like to learn new things and then implement it in the project. I quickly delve into the problem and look for the best solution</p>
+                </section>
+                <section class="courses">
+                    <div class="subHeader">
+                        <img src="./icons/book.png" alt="courses">
+                        <h3>Courses</h3>
+                    </div>
+                    <ul>
+                        <li>codeCademy</li>
+                        <li>FreeCodeCamp</li>
+                        <li>RS school</li>
+                    </ul>
+                </section>
+                <section class="codeExample">
+                    <div class="subHeader">
+                    <img src="./icons/pc.png" alt="example">
+                    <h3>code example</h3>
+                    </div>
+                    <pre class="pre"> 
+                        <code>
+                            function peak(arr) {
+                                for (let i = 1; i < arr.length - 1; i++) {
+                                  let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
+                                  let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
+                              
+                                  if (leftSum === rightSum) return i;
+                                }
+                                return -1
+                        </code>
+                    </pre>
+                    
+                </section>
             </aside>
+            <footer></footer>
         </div>
         <div class="footer">erew</div>
     </div>

@@ -66,3 +66,28 @@ main :not(.contacts) ul{
   text-transform: uppercase;
 }
 
+.subHeader{
+  display: flex;
+}
+
+.rightColumn h3{
+  flex: 1;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #777777;
+  border-bottom: 2px solid black;
+}
+
+.courses ul{
+  list-style-type: disc;
+
+}
+
+.rightColumn p, ul li{
+  margin-left: 40px;
+}
+
+.pre{
+  margin-left: -130px;
+}
