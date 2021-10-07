@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(228, 127, 127);
+  background-color: rgb(218, 164, 164);
 }
 
 .wrapper {
@@ -16,14 +16,19 @@ body {
   display: flex;
 }
 .leftColumn {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   border: 1px green solid;
-  width: 30%;
+  width: 26%;
+  background-color: rgba(180, 216, 122, 0.685);
 }
 
 .rightColumn {
   border: 1px yellow solid;
-  width: 70%;
+  width: 74%;
   height: 600px;
+  background-color: rgb(121, 189, 160);
 }
 
 .footer {
@@ -32,8 +37,7 @@ body {
 
 header{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  
   padding: 25px;
 }
 
@@ -90,4 +94,16 @@ main :not(.contacts) ul{
 
 .pre{
   margin-left: -130px;
+}
+
+.footer{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer a{
+  text-decoration: none;
+  color: darkblue
 }
